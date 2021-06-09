@@ -1,0 +1,9 @@
+#gerar arquivo migration
+	python manage.py makemigrations core
+
+#gerar script migration
+	python manage.py sqlmigrate core [nome_arquivo_migration]
+
+#aplicar migration
+	python manage.py migrate core 0001
+
